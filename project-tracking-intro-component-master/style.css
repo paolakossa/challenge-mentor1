@@ -1,0 +1,118 @@
+header, nav{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+body{
+	font-family: 'Barlow', sans-serif;
+	
+}
+
+.logo{
+
+	padding: 50px;
+	margin: 0 0 0 100px;
+}
+.caixa{
+	position: relative;
+	width: 940px;
+	margin-left: 600px;
+	top: -50px;
+}
+
+nav li{
+
+display: inline;
+margin: 0 50px 0 15px;
+text-transform: uppercase;
+color: hsl(230, 29%, 20%);
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;
+cursor: pointer;
+
+}
+
+.login{
+	color: hsl(231, 7%, 65%); 
+}
+
+.new{
+
+	width: 15%;
+ 	background:hsl(230, 29%, 20%);
+ 	padding: 0 5px;
+ 	font-weight:bold;
+ 	border:none;
+ 	border-radius:30px;
+ 	color: hsl(207, 33%, 95%);
+ 	font-size: 18px;
+}
+
+
+.monograph{
+	color: hsl(231, 7%, 65%);
+	font-size: 18px;
+
+
+	}
+
+.frase{
+	position: relative;
+	display: inline-flex;
+	margin: 0 150px;
+	padding:0 0 15px;
+	text-transform: uppercase;
+
+}
+
+.principal{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0 0 0 150px;
+	padding: 0 0 150px;
+	color: hsl(230, 29%, 20%);
+	font-family: 'Barlow Condensed', sans-serif;
+	margin-top: -50px;
+
+}
+
+.secundario{
+	margin-top: -175px;
+	margin-left: 150px;
+	color: hsl(230, 11%, 40%);
+}
+
+.imagem{
+	float: right;
+	margin-top:-300px;
+	width: 50%;
+}
+
+.demo {
+
+ 	width: 32%;
+ 	background:hsl(0, 100%, 68%);
+ 	font-weight:bold;
+ 	font-size:13px;
+ 	border:none;
+ 	border-radius:5px;
+ 	transition: 1s all;
+ 	cursor: pointer;
+ 	text-transform: uppercase;
+ 	color: hsl(207, 33%, 95%);
+ 	margin-left: 150px;
+ }
+
+ .frase-botao{
+ 	position: relative;
+	display: inline-flex;
+	text-transform: uppercase;
+	color: hsl(231, 7%, 65%);
+ }
+
+ @media screen and (max-width: 480px) {
+	.caixa, .principal, .logo, nav li, .new, .monograph, .frase, .secundario,.imagem, .demo, .frase-botao  {
+		width: auto;
+	}
+}
